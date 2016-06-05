@@ -5,11 +5,14 @@ The library can read files in a recursive directory structure. For example, if o
 
 ## Usage
 //Create a StopSetClass object
+
 StopSetClass stopSetClass;
 
 //Point the class to the root directory of the stop words files structure
+
 stopSetClass.readDirectory("path_to_root_directory");
 
 //Lookup a word
+
 bool found = stopSetClass.find("test_word");
 
